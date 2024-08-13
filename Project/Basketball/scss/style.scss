@@ -1,0 +1,53 @@
+$OrangeColor: rgb(252, 105, 7);
+$GreenColor: rgb(29, 124, 72);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    header {
+        background-color: $OrangeColor;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+
+        .nav-link {
+            text-decoration: none;
+
+            &:hover {
+                font-size: 20px;
+                border-radius: 5px;
+                padding: 5px;
+                background-color: $GreenColor;
+                color: white;
+            }
+
+        }
+
+    }
+
+    .carousel-inner {
+        margin-top: 90px;
+
+        h5 {
+
+            background-color: rgba(255, 255, 255, 0.486);
+            padding: 10px;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: rgba(252, 105, 7, 0.562);
+            }
+        }
+    }
+
+   
+
+    footer {
+        background-color: $OrangeColor;
+    }
+}

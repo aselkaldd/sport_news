@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  background-color: rgb(252, 105, 7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+body header .nav-link {
+  text-decoration: none;
+}
+body header .nav-link:hover {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(29, 124, 72);
+  color: white;
+}
+body main {
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+body footer {
+  background-color: rgb(252, 105, 7);
+}/*# sourceMappingURL=style.css.map */

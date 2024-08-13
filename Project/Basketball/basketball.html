@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f143cb399b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./scss/style.css" />
+    <title>Basketball</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="../index.html" class="me-5"
+            >Sport Magazine</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-5"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../foothistory/history.html"
+                  target="_blank"
+                  ><i class="fa-solid fa-book-bookmark me-2"></i>Geschichte</a
+                >
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="../Fussball/fussball.html"
+                  ><i class="fa-solid fa-futbol me-2" target="_blank"></i
+                  >Fußball</a
+                >
+              </li>
+              <li class="nav-item ms-2">
+                <a
+                  class="nav-link"
+                  aria-disabled="true"
+                  href="./basketball.html"
+                  target="_blank"
+                  ><i class="fa-solid fa-basketball me-2"></i>Basketball</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../img/4riO_924pAE_lo.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample"
+                    >
+                      Basketball-Weltmeister geht mit Medaille ins Bett
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="../img/21d13802194a8cc8a70c8624d71343692d78bdda-ipad.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseExampleOne"
+                    >
+                      Große Ehre für Basketball-Star Schröder
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="../img/4qWl_624pcw_lo.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseExampleTwo"
+                    >
+                      USA planen gewaltige Basketball-Rache
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                <h5>
+                  Basketball-Weltmeister Justus Hollatz hat seine Goldmedaille
+                  seit dem sensationellen Titelgewinn bei der WM in Manila fast
+                  immer dabei - sogar im Bett.
+                </h5>
+                <p>
+                  "Die Medaille habe ich bisher nur zum Duschen abgelegt, sonst
+                  habe ich sie überall dabei - auch beim Schlafen", sagte
+                  Hollatz bei einem spontanen Empfang seines früheren Klubs
+                  Hamburg Towers.
+                </p>
+                <p>
+                  Mehr als 150 Kinder und einige Mitarbeiter des Bundesligisten
+                  hatten den 22 Jahre alten Point Guard mit einer kleinen Feier
+                  überrascht.
+                </p>
+                <p>
+                  "Ich würde lügen, wenn ich sage, dass der Empfang nicht
+                  emotionaler war als der in Frankfurt", sagte der gebürtige
+                  Hamburger. In Frankfurt am Main waren die Weltmeister am
+                  Dienstag nach der Landung von mehr als 1000 Fans empfangen und
+                  gefeiert worden.
+                </p>
+                <p>
+                  Hollatz wird die kommenden Tage in Hamburg entspannen, ehe es
+                  für ihn am Wochenende nach Istanbul geht. Der Aufbauspieler
+                  steht in der kommenden Saison beim Euroleague-Topklub Anadolu
+                  Efes Istanbul unter Vertrag.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="collapse" id="collapseExampleOne">
+              <div class="card card-body">
+                <h5>
+                  Dennis Schröder wird in seiner Heimat Braunschweig für den
+                  Gewinn des WM-Titels im Basketball gewürdigt und trägt sich am
+                  Freitag ins Goldene Buch der Stadt ein.
+                </h5>
+
+                <p>
+                  Die Feier mit geladenen Gästen im Altstadtrathaus findet um
+                  13:45 Uhr statt.
+                </p>
+
+                <p>
+                  "Ich freue mich sehr, dass Dennis Schröder nur wenige Tage
+                  nach seinem großartigen Erfolg kommen und mit 'seiner Stadt'
+                  feiern wird", sagte Oberbürgermeister Thorsten Kornblum: "Das
+                  ist auch eine tolle Nachricht für die Fans in Braunschweig und
+                  der Region."
+                </p>
+
+                <p>
+                  NBA-Profi Schröder (Toronto Raptors) hatte am Sonntag als
+                  Kapitän in Manila/Philippinen mit dem Nationalteam WM-Gold
+                  geholt und war als wertvollster Spieler (MVP) des Turniers
+                  ausgezeichnet worden. Es ist der bislang größte Erfolg der
+                  Verbandsgeschichte.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="collapse" id="collapseExampleTwo">
+              <div class="card card-body">
+                <h5>
+                  Folgt auf die große Schmach die noch größere
+                  Basketball-Revanche? Der amerikanische Basketballverband will
+                  für das nächste große Turnier eine schlagkräftige Mannschaft
+                  mit prominenten Namen zusammenstellen. LeBron James arbeitet
+                  an einem Superstar-Team.
+                </h5>
+
+                <p>
+                  Die Basketball-WM endete für die deutsche Auswahl mit einem
+                  Märchen und dem sensationellen Triumph in Manila über Serbien.
+                  Auf dem Weg zum Titel räumte die DBB-Mannschaft im Halbfinale
+                  auch die favorisierten Amerikaner aus dem Weg. Bei dem
+                  113:111-Shootout war das deutsche Team die bessere Mannschaft,
+                  vor allem Scharfschütze Andreas Obst setzte dem Team USA
+                  ordentlich zu.
+                </p>
+
+                <p>
+                  Nach dem bitteren Aus im Halbfinale kassierten die USA auch
+                  noch im Spiel um Platz drei eine bittere Pleite im
+                  Nordamerika-Duell gegen Kanada. So stand am Ende nur ein
+                  vierter Platz. Zu wenig für das Mutterland des Korbsports.
+                </p>
+
+                <p>
+                  Dementsprechend vernichtend waren die Analysen in der Heimat.
+                  Tenor: Das darf so schnell nicht mehr passieren.
+                </p>
+
+                <p>
+                  Das 2023er Team bestand aus zweifellos guten NBA-Spielern,
+                  allerdings ohne Superstars, insgesamt standen nur drei
+                  All-Stars im US-Aufgebot. Für die Olympischen Spiele 2024 soll
+                  sich das schleunigst ändern. Das Olympia-Turnier hat im
+                  Basketball ein noch größeres Prestige als die WM.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="two">
+        <div class="container mb-3">
+          <div class="row">
+            <div class="col-12">
+              <div
+                id="carouselExampleInterval"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img
+                      src="../img/117748d3-kerr1.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="../img/howard1.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../img/nba1.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="card-body mt-4">
+              <i class="fa-brands fa-twitter fa-xl"></i>
+              <i class="fa-brands fa-facebook fa-xl ms-3"></i>
+              <i class="fa-brands fa-square-instagram fa-xl ms-3"></i>
+              <p class="card-text"></p>
+              <a href="#top" class="btn">To the top</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  background-color: rgb(252, 105, 7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+body header .nav-link {
+  text-decoration: none;
+}
+body header .nav-link:hover {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(29, 124, 72);
+  color: white;
+}
+body .one {
+  margin-top: 100px;
+}
+body .one a {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+body .one a .text {
+  background-color: rgba(255, 255, 255, 0.466);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .one a .text:hover {
+  background-color: rgba(252, 105, 7, 0.562);
+}
+body .one .aside:hover {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(173, 172, 172), -5px -5px 10px rgb(173, 172, 172);
+  font-size: 20px;
+}
+body footer {
+  background-color: rgb(252, 105, 7);
+}/*# sourceMappingURL=style.css.map */
